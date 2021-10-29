@@ -22,13 +22,13 @@ import (
 	"github.com/ethereum/go-ethereum/core/vm"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/Fantom-foundation/go-opera/evmcore"
-	"github.com/Fantom-foundation/go-opera/integration/makegenesis"
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/opera"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/gpos"
-	"github.com/Fantom-foundation/go-opera/utils"
-	"github.com/Fantom-foundation/go-opera/utils/gsignercache"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/evmcore"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/integration/makegenesis"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/inter"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera/genesis/gpos"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/utils"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/utils/gsignercache"
 )
 
 const (

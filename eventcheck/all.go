@@ -1,12 +1,12 @@
 package eventcheck
 
 import (
-	"github.com/Fantom-foundation/go-opera/eventcheck/basiccheck"
-	"github.com/Fantom-foundation/go-opera/eventcheck/epochcheck"
-	"github.com/Fantom-foundation/go-opera/eventcheck/gaspowercheck"
-	"github.com/Fantom-foundation/go-opera/eventcheck/heavycheck"
-	"github.com/Fantom-foundation/go-opera/eventcheck/parentscheck"
-	"github.com/Fantom-foundation/go-opera/inter"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/eventcheck/basiccheck"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/eventcheck/epochcheck"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/eventcheck/gaspowercheck"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/eventcheck/heavycheck"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/eventcheck/parentscheck"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/inter"
 )
 
 // Checkers is collection of all the checkers

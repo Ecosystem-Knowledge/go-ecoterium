@@ -34,9 +34,9 @@ import (
 	"github.com/ethereum/go-ethereum/params"
 	"github.com/ethereum/go-ethereum/rpc"
 
-	"github.com/Fantom-foundation/go-opera/evmcore"
-	"github.com/Fantom-foundation/go-opera/gossip/sfcapi"
-	"github.com/Fantom-foundation/go-opera/inter"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/evmcore"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/gossip/sfcapi"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/inter"
 )
 
 // PeerProgress is synchronization status of a peer

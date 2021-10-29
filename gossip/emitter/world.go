@@ -12,11 +12,11 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	notify "github.com/ethereum/go-ethereum/event"
 
-	"github.com/Fantom-foundation/go-opera/evmcore"
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/opera"
-	"github.com/Fantom-foundation/go-opera/valkeystore"
-	"github.com/Fantom-foundation/go-opera/vecmt"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/evmcore"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/inter"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/valkeystore"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/vecmt"
 )
 
 var (

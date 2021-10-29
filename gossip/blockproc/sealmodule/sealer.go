@@ -7,7 +7,7 @@ import (
 	"github.com/Fantom-foundation/lachesis-base/inter/pos"
 	"github.com/Fantom-foundation/lachesis-base/lachesis"
 
-	"github.com/Fantom-foundation/go-opera/gossip/blockproc"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/gossip/blockproc"
 )
 
 type OperaEpochsSealerModule struct{}

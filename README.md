@@ -90,27 +90,27 @@ go test ./...
 
 If everything goes well, it should output something along these lines:
 ```
-ok  	github.com/Fantom-foundation/go-opera/app	0.033s
-?   	github.com/Fantom-foundation/go-opera/cmd/cmdtest	[no test files]
-ok  	github.com/Fantom-foundation/go-opera/cmd/opera	13.890s
-?   	github.com/Fantom-foundation/go-opera/cmd/opera/metrics	[no test files]
-?   	github.com/Fantom-foundation/go-opera/cmd/opera/tracing	[no test files]
-?   	github.com/Fantom-foundation/go-opera/crypto	[no test files]
-?   	github.com/Fantom-foundation/go-opera/debug	[no test files]
-?   	github.com/Fantom-foundation/go-opera/ethapi	[no test files]
-?   	github.com/Fantom-foundation/go-opera/eventcheck	[no test files]
-?   	github.com/Fantom-foundation/go-opera/eventcheck/basiccheck	[no test files]
-?   	github.com/Fantom-foundation/go-opera/eventcheck/gaspowercheck	[no test files]
-?   	github.com/Fantom-foundation/go-opera/eventcheck/heavycheck	[no test files]
-?   	github.com/Fantom-foundation/go-opera/eventcheck/parentscheck	[no test files]
-ok  	github.com/Fantom-foundation/go-opera/evmcore	6.322s
-?   	github.com/Fantom-foundation/go-opera/gossip	[no test files]
-?   	github.com/Fantom-foundation/go-opera/gossip/emitter	[no test files]
-ok  	github.com/Fantom-foundation/go-opera/gossip/filters	1.250s
-?   	github.com/Fantom-foundation/go-opera/gossip/gasprice	[no test files]
-?   	github.com/Fantom-foundation/go-opera/gossip/occuredtxs	[no test files]
-?   	github.com/Fantom-foundation/go-opera/gossip/piecefunc	[no test files]
-ok  	github.com/Fantom-foundation/go-opera/integration	21.640s
+ok  	github.com/Ecosystem-Knowledge/go-ecoterium/app	0.033s
+?   	github.com/Ecosystem-Knowledge/go-ecoterium/cmd/cmdtest	[no test files]
+ok  	github.com/Ecosystem-Knowledge/go-ecoterium/cmd/opera	13.890s
+?   	github.com/Ecosystem-Knowledge/go-ecoterium/cmd/opera/metrics	[no test files]
+?   	github.com/Ecosystem-Knowledge/go-ecoterium/cmd/opera/tracing	[no test files]
+?   	github.com/Ecosystem-Knowledge/go-ecoterium/crypto	[no test files]
+?   	github.com/Ecosystem-Knowledge/go-ecoterium/debug	[no test files]
+?   	github.com/Ecosystem-Knowledge/go-ecoterium/ethapi	[no test files]
+?   	github.com/Ecosystem-Knowledge/go-ecoterium/eventcheck	[no test files]
+?   	github.com/Ecosystem-Knowledge/go-ecoterium/eventcheck/basiccheck	[no test files]
+?   	github.com/Ecosystem-Knowledge/go-ecoterium/eventcheck/gaspowercheck	[no test files]
+?   	github.com/Ecosystem-Knowledge/go-ecoterium/eventcheck/heavycheck	[no test files]
+?   	github.com/Ecosystem-Knowledge/go-ecoterium/eventcheck/parentscheck	[no test files]
+ok  	github.com/Ecosystem-Knowledge/go-ecoterium/evmcore	6.322s
+?   	github.com/Ecosystem-Knowledge/go-ecoterium/gossip	[no test files]
+?   	github.com/Ecosystem-Knowledge/go-ecoterium/gossip/emitter	[no test files]
+ok  	github.com/Ecosystem-Knowledge/go-ecoterium/gossip/filters	1.250s
+?   	github.com/Ecosystem-Knowledge/go-ecoterium/gossip/gasprice	[no test files]
+?   	github.com/Ecosystem-Knowledge/go-ecoterium/gossip/occuredtxs	[no test files]
+?   	github.com/Ecosystem-Knowledge/go-ecoterium/gossip/piecefunc	[no test files]
+ok  	github.com/Ecosystem-Knowledge/go-ecoterium/integration	21.640s
 ```
 
 Also it is tested with [fuzzing](./FUZZING.md).

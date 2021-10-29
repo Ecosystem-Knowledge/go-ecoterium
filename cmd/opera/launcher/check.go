@@ -16,8 +16,8 @@ import (
 	"github.com/ethereum/go-ethereum/rlp"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/Fantom-foundation/go-opera/integration"
-	"github.com/Fantom-foundation/go-opera/inter"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/integration"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/inter"
 )
 
 var (

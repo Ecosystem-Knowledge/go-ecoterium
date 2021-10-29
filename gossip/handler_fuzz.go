@@ -10,10 +10,10 @@ import (
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/ethereum/go-ethereum/p2p/enode"
 
-	"github.com/Fantom-foundation/go-opera/evmcore"
-	"github.com/Fantom-foundation/go-opera/integration/makegenesis"
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/utils"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/evmcore"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/integration/makegenesis"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/inter"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/utils"
 )
 
 const (

@@ -16,11 +16,11 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/Fantom-foundation/go-opera/gossip"
-	"github.com/Fantom-foundation/go-opera/opera"
-	"github.com/Fantom-foundation/go-opera/opera/genesisstore"
-	"github.com/Fantom-foundation/go-opera/utils/adapters/vecmt2dagidx"
-	"github.com/Fantom-foundation/go-opera/vecmt"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/gossip"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera/genesisstore"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/utils/adapters/vecmt2dagidx"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/vecmt"
 )
 
 // GenesisMismatchError is raised when trying to overwrite an existing

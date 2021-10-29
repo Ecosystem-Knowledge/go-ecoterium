@@ -17,10 +17,10 @@ import (
 	"github.com/ethereum/go-ethereum/trie"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
-	"github.com/Fantom-foundation/go-opera/logger"
-	"github.com/Fantom-foundation/go-opera/topicsdb"
-	"github.com/Fantom-foundation/go-opera/utils/adapters/kvdb2ethdb"
-	"github.com/Fantom-foundation/go-opera/utils/rlpstore"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/logger"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/topicsdb"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/utils/adapters/kvdb2ethdb"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/utils/rlpstore"
 )
 
 const nominalSize uint = 1

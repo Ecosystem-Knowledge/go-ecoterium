@@ -11,10 +11,10 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/Fantom-foundation/go-opera/eventcheck/epochcheck"
-	"github.com/Fantom-foundation/go-opera/eventcheck/gaspowercheck"
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/utils"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/eventcheck/epochcheck"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/eventcheck/gaspowercheck"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/inter"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/utils"
 )
 
 const (

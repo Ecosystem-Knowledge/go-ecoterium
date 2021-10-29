@@ -7,9 +7,9 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/sfc"
-	"github.com/Fantom-foundation/go-opera/topicsdb"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/inter"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera/genesis/sfc"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/topicsdb"
 )
 
 func ApplyGenesis(s *Store, index *topicsdb.Index) {

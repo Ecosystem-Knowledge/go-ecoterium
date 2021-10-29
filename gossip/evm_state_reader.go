@@ -11,9 +11,9 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/Fantom-foundation/go-opera/evmcore"
-	"github.com/Fantom-foundation/go-opera/gossip/gasprice"
-	"github.com/Fantom-foundation/go-opera/inter"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/evmcore"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/gossip/gasprice"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/inter"
 )
 
 var (

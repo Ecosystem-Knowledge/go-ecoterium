@@ -12,17 +12,17 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/inter/validatorpk"
-	"github.com/Fantom-foundation/go-opera/opera"
-	"github.com/Fantom-foundation/go-opera/opera/genesis"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/driver"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/driverauth"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/evmwriter"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/gpos"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/netinit"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/sfc"
-	"github.com/Fantom-foundation/go-opera/opera/genesisstore"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/inter"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/inter/validatorpk"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera/genesis"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera/genesis/driver"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera/genesis/driverauth"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera/genesis/evmwriter"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera/genesis/gpos"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera/genesis/netinit"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera/genesis/sfc"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera/genesisstore"
 )
 
 var (

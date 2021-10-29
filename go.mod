@@ -1,4 +1,4 @@
-module github.com/Fantom-foundation/go-opera
+module github.com/Ecosystem-Knowledge/go-ecoterium
 
 go 1.14
 

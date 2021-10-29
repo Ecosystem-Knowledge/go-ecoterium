@@ -35,17 +35,17 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Fantom-foundation/go-opera/gossip/contract/driver100"
-	"github.com/Fantom-foundation/go-opera/gossip/contract/driverauth100"
-	"github.com/Fantom-foundation/go-opera/gossip/contract/netinit100"
-	"github.com/Fantom-foundation/go-opera/gossip/contract/sfc100"
-	"github.com/Fantom-foundation/go-opera/logger"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/driver"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/driverauth"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/evmwriter"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/netinit"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/sfc"
-	"github.com/Fantom-foundation/go-opera/utils"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/gossip/contract/driver100"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/gossip/contract/driverauth100"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/gossip/contract/netinit100"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/gossip/contract/sfc100"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/logger"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera/genesis/driver"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera/genesis/driverauth"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera/genesis/evmwriter"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera/genesis/netinit"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera/genesis/sfc"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/utils"
 )
 
 func TestSFC(t *testing.T) {

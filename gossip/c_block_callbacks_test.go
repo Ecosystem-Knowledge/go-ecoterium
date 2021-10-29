@@ -8,8 +8,8 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Fantom-foundation/go-opera/logger"
-	"github.com/Fantom-foundation/go-opera/utils"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/logger"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/utils"
 )
 
 func TestConsensusCallback(t *testing.T) {

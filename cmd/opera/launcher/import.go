@@ -24,12 +24,12 @@ import (
 	"github.com/status-im/keycard-go/hexutils"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/Fantom-foundation/go-opera/gossip"
-	"github.com/Fantom-foundation/go-opera/gossip/emitter"
-	"github.com/Fantom-foundation/go-opera/integration"
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/utils/iodb"
-	"github.com/Fantom-foundation/go-opera/utils/ioread"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/gossip"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/gossip/emitter"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/integration"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/inter"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/utils/iodb"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/utils/ioread"
 )
 
 type restrictedEvmBatch struct {

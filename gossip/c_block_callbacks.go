@@ -17,14 +17,14 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/Fantom-foundation/go-opera/evmcore"
-	"github.com/Fantom-foundation/go-opera/gossip/blockproc"
-	"github.com/Fantom-foundation/go-opera/gossip/blockproc/verwatcher"
-	"github.com/Fantom-foundation/go-opera/gossip/emitter"
-	"github.com/Fantom-foundation/go-opera/gossip/evmstore"
-	"github.com/Fantom-foundation/go-opera/gossip/sfcapi"
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/opera"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/evmcore"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/gossip/blockproc"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/gossip/blockproc/verwatcher"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/gossip/emitter"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/gossip/evmstore"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/gossip/sfcapi"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/inter"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera"
 )
 
 type ExtendedTxPosition struct {

@@ -34,8 +34,8 @@ import (
 	"github.com/ethereum/go-ethereum/trie"
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/Fantom-foundation/go-opera/gossip/evmstore/evmpruner"
-	"github.com/Fantom-foundation/go-opera/integration"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/gossip/evmstore/evmpruner"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/integration"
 )
 
 var (

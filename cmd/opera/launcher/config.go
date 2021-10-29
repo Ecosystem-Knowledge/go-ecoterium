@@ -24,15 +24,15 @@ import (
 	"github.com/naoina/toml"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/Fantom-foundation/go-opera/evmcore"
-	"github.com/Fantom-foundation/go-opera/gossip"
-	"github.com/Fantom-foundation/go-opera/gossip/gasprice"
-	"github.com/Fantom-foundation/go-opera/integration"
-	"github.com/Fantom-foundation/go-opera/integration/makegenesis"
-	"github.com/Fantom-foundation/go-opera/opera"
-	"github.com/Fantom-foundation/go-opera/opera/genesisstore"
-	futils "github.com/Fantom-foundation/go-opera/utils"
-	"github.com/Fantom-foundation/go-opera/vecmt"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/evmcore"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/gossip"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/gossip/gasprice"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/integration"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/integration/makegenesis"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera/genesisstore"
+	futils "github.com/Ecosystem-Knowledge/go-ecoterium/utils"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/vecmt"
 )
 
 var (

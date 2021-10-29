@@ -8,11 +8,11 @@ import (
 
 	"github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/Fantom-foundation/go-opera/logger"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/driver"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/driver/driverpos"
-	"github.com/Fantom-foundation/go-opera/utils/errlock"
-	"github.com/Fantom-foundation/go-opera/version"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/logger"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera/genesis/driver"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/opera/genesis/driver/driverpos"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/utils/errlock"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/version"
 )
 
 type VerWarcher struct {

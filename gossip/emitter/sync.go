@@ -7,8 +7,8 @@ import (
 	"github.com/Fantom-foundation/lachesis-base/emitter/doublesign"
 	"github.com/Fantom-foundation/lachesis-base/hash"
 
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/utils/errlock"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/inter"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/utils/errlock"
 )
 
 type syncStatus struct {

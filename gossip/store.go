@@ -12,10 +12,10 @@ import (
 	"github.com/Fantom-foundation/lachesis-base/utils/wlru"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/Fantom-foundation/go-opera/gossip/evmstore"
-	"github.com/Fantom-foundation/go-opera/gossip/sfcapi"
-	"github.com/Fantom-foundation/go-opera/logger"
-	"github.com/Fantom-foundation/go-opera/utils/rlpstore"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/gossip/evmstore"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/gossip/sfcapi"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/logger"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/utils/rlpstore"
 )
 
 // Store is a node persistent storage working over physical key-value database.

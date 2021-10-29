@@ -19,15 +19,15 @@ import (
 	"github.com/ethereum/go-ethereum/params"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/Fantom-foundation/go-opera/cmd/opera/launcher/metrics"
-	"github.com/Fantom-foundation/go-opera/cmd/opera/launcher/tracing"
-	"github.com/Fantom-foundation/go-opera/debug"
-	"github.com/Fantom-foundation/go-opera/flags"
-	"github.com/Fantom-foundation/go-opera/gossip"
-	"github.com/Fantom-foundation/go-opera/integration"
-	"github.com/Fantom-foundation/go-opera/utils/errlock"
-	"github.com/Fantom-foundation/go-opera/valkeystore"
-	_ "github.com/Fantom-foundation/go-opera/version"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/cmd/opera/launcher/metrics"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/cmd/opera/launcher/tracing"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/debug"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/flags"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/gossip"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/integration"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/utils/errlock"
+	"github.com/Ecosystem-Knowledge/go-ecoterium/valkeystore"
+	_ "github.com/Ecosystem-Knowledge/go-ecoterium/version"
 )
 
 const (
