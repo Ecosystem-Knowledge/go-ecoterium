@@ -3,11 +3,11 @@ package vecmt
 import (
 	"testing"
 
-	"github.com/Fantom-foundation/lachesis-base/hash"
-	"github.com/Fantom-foundation/lachesis-base/inter/dag"
-	"github.com/Fantom-foundation/lachesis-base/inter/dag/tdag"
-	"github.com/Fantom-foundation/lachesis-base/inter/pos"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/memorydb"
+	"github.com/Ecosystem-Knowledge/lachesis-base/hash"
+	"github.com/Ecosystem-Knowledge/lachesis-base/inter/dag"
+	"github.com/Ecosystem-Knowledge/lachesis-base/inter/dag/tdag"
+	"github.com/Ecosystem-Knowledge/lachesis-base/inter/pos"
+	"github.com/Ecosystem-Knowledge/lachesis-base/kvdb/memorydb"
 
 	"github.com/Ecosystem-Knowledge/go-ecoterium/inter"
 )

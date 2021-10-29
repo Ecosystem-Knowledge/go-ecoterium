@@ -3,8 +3,8 @@ package iodb
 import (
 	"io"
 
-	"github.com/Fantom-foundation/lachesis-base/common/bigendian"
-	"github.com/Fantom-foundation/lachesis-base/kvdb"
+	"github.com/Ecosystem-Knowledge/lachesis-base/common/bigendian"
+	"github.com/Ecosystem-Knowledge/lachesis-base/kvdb"
 
 	"github.com/Ecosystem-Knowledge/go-ecoterium/utils/ioread"
 )

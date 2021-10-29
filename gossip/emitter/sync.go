@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Fantom-foundation/lachesis-base/emitter/doublesign"
-	"github.com/Fantom-foundation/lachesis-base/hash"
+	"github.com/Ecosystem-Knowledge/lachesis-base/emitter/doublesign"
+	"github.com/Ecosystem-Knowledge/lachesis-base/hash"
 
 	"github.com/Ecosystem-Knowledge/go-ecoterium/inter"
 	"github.com/Ecosystem-Knowledge/go-ecoterium/utils/errlock"

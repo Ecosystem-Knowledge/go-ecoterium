@@ -1,7 +1,7 @@
 package eventcheck
 
 import (
-	base "github.com/Fantom-foundation/lachesis-base/eventcheck"
+	base "github.com/Ecosystem-Knowledge/lachesis-base/eventcheck"
 
 	"github.com/Ecosystem-Knowledge/go-ecoterium/eventcheck/epochcheck"
 )

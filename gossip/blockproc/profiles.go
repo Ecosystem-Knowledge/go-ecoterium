@@ -3,8 +3,8 @@ package blockproc
 import (
 	"io"
 
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
-	"github.com/Fantom-foundation/lachesis-base/inter/pos"
+	"github.com/Ecosystem-Knowledge/lachesis-base/inter/idx"
+	"github.com/Ecosystem-Knowledge/lachesis-base/inter/pos"
 	"github.com/ethereum/go-ethereum/rlp"
 
 	"github.com/Ecosystem-Knowledge/go-ecoterium/inter/drivertype"

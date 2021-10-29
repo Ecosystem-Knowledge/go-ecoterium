@@ -1,9 +1,9 @@
 package genesisstore
 
 import (
-	"github.com/Fantom-foundation/lachesis-base/kvdb"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/memorydb"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/table"
+	"github.com/Ecosystem-Knowledge/lachesis-base/kvdb"
+	"github.com/Ecosystem-Knowledge/lachesis-base/kvdb/memorydb"
+	"github.com/Ecosystem-Knowledge/lachesis-base/kvdb/table"
 
 	"github.com/Ecosystem-Knowledge/go-ecoterium/logger"
 	"github.com/Ecosystem-Knowledge/go-ecoterium/utils/rlpstore"

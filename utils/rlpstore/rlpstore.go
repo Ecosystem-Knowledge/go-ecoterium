@@ -2,7 +2,7 @@ package rlpstore
 
 import (
 	"github.com/Ecosystem-Knowledge/go-ecoterium/logger"
-	"github.com/Fantom-foundation/lachesis-base/kvdb"
+	"github.com/Ecosystem-Knowledge/lachesis-base/kvdb"
 	"github.com/ethereum/go-ethereum/rlp"
 )
 

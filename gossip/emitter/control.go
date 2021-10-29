@@ -3,9 +3,9 @@ package emitter
 import (
 	"time"
 
-	"github.com/Fantom-foundation/lachesis-base/emitter/ancestor"
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
-	"github.com/Fantom-foundation/lachesis-base/inter/pos"
+	"github.com/Ecosystem-Knowledge/lachesis-base/emitter/ancestor"
+	"github.com/Ecosystem-Knowledge/lachesis-base/inter/idx"
+	"github.com/Ecosystem-Knowledge/lachesis-base/inter/pos"
 
 	"github.com/Ecosystem-Knowledge/go-ecoterium/inter"
 	"github.com/Ecosystem-Knowledge/go-ecoterium/utils/piecefunc"

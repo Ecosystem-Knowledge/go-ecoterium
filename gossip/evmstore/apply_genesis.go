@@ -1,8 +1,8 @@
 package evmstore
 
 import (
-	"github.com/Fantom-foundation/lachesis-base/hash"
-	"github.com/Fantom-foundation/lachesis-base/kvdb"
+	"github.com/Ecosystem-Knowledge/lachesis-base/hash"
+	"github.com/Ecosystem-Knowledge/lachesis-base/kvdb"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
 	"github.com/Ecosystem-Knowledge/go-ecoterium/evmcore"

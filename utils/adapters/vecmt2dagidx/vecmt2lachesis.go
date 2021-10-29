@@ -1,11 +1,11 @@
 package vecmt2dagidx
 
 import (
-	"github.com/Fantom-foundation/lachesis-base/abft"
-	"github.com/Fantom-foundation/lachesis-base/abft/dagidx"
-	"github.com/Fantom-foundation/lachesis-base/hash"
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
-	"github.com/Fantom-foundation/lachesis-base/vecfc"
+	"github.com/Ecosystem-Knowledge/lachesis-base/abft"
+	"github.com/Ecosystem-Knowledge/lachesis-base/abft/dagidx"
+	"github.com/Ecosystem-Knowledge/lachesis-base/hash"
+	"github.com/Ecosystem-Knowledge/lachesis-base/inter/idx"
+	"github.com/Ecosystem-Knowledge/lachesis-base/vecfc"
 
 	"github.com/Ecosystem-Knowledge/go-ecoterium/vecmt"
 )

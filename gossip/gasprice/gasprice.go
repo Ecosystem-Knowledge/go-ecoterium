@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
+	"github.com/Ecosystem-Knowledge/lachesis-base/inter/idx"
 
 	"github.com/Ecosystem-Knowledge/go-ecoterium/opera"
 	"github.com/Ecosystem-Knowledge/go-ecoterium/utils/piecefunc"

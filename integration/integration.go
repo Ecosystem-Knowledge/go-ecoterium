@@ -3,8 +3,8 @@ package integration
 import (
 	"time"
 
-	"github.com/Fantom-foundation/lachesis-base/abft"
-	"github.com/Fantom-foundation/lachesis-base/utils/cachescale"
+	"github.com/Ecosystem-Knowledge/lachesis-base/abft"
+	"github.com/Ecosystem-Knowledge/lachesis-base/utils/cachescale"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/node"
 	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"

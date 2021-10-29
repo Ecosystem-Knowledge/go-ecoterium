@@ -1,7 +1,7 @@
 package verwatcher
 
 import (
-	"github.com/Fantom-foundation/lachesis-base/kvdb"
+	"github.com/Ecosystem-Knowledge/lachesis-base/kvdb"
 
 	"github.com/Ecosystem-Knowledge/go-ecoterium/logger"
 )

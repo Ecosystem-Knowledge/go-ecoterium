@@ -3,8 +3,8 @@ package epochcheck
 import (
 	"errors"
 
-	base "github.com/Fantom-foundation/lachesis-base/eventcheck/epochcheck"
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
+	base "github.com/Ecosystem-Knowledge/lachesis-base/eventcheck/epochcheck"
+	"github.com/Ecosystem-Knowledge/lachesis-base/inter/idx"
 	"github.com/ethereum/go-ethereum/core/types"
 
 	"github.com/Ecosystem-Knowledge/go-ecoterium/inter"

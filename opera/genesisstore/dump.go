@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Fantom-foundation/lachesis-base/hash"
+	"github.com/Ecosystem-Knowledge/lachesis-base/hash"
 	"github.com/status-im/keycard-go/hexutils"
 
 	"github.com/Ecosystem-Knowledge/go-ecoterium/utils/iodb"

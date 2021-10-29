@@ -1,7 +1,7 @@
 package kvdb2ethdb
 
 import (
-	"github.com/Fantom-foundation/lachesis-base/kvdb"
+	"github.com/Ecosystem-Knowledge/lachesis-base/kvdb"
 	"github.com/ethereum/go-ethereum/ethdb"
 )
 

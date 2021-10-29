@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
+	"github.com/Ecosystem-Knowledge/lachesis-base/inter/idx"
 	"github.com/stretchr/testify/require"
 
 	"github.com/Ecosystem-Knowledge/go-ecoterium/opera"

@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
+	"github.com/Ecosystem-Knowledge/lachesis-base/inter/idx"
 	cli "gopkg.in/urfave/cli.v1"
 
 	"github.com/Ecosystem-Knowledge/go-ecoterium/integration/makegenesis"

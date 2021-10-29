@@ -3,7 +3,7 @@ package drivertype
 import (
 	"math/big"
 
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
+	"github.com/Ecosystem-Knowledge/lachesis-base/inter/idx"
 
 	"github.com/Ecosystem-Knowledge/go-ecoterium/inter/validatorpk"
 )

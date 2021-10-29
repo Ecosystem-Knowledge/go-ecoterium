@@ -4,7 +4,7 @@ import (
 	"github.com/pkg/errors"
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
+	"github.com/Ecosystem-Knowledge/lachesis-base/inter/idx"
 
 	"github.com/Ecosystem-Knowledge/go-ecoterium/gossip/emitter"
 	"github.com/Ecosystem-Knowledge/go-ecoterium/integration/makegenesis"

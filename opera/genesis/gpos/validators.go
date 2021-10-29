@@ -5,7 +5,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 
 	"github.com/Ecosystem-Knowledge/go-ecoterium/inter/validatorpk"
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
+	"github.com/Ecosystem-Knowledge/lachesis-base/inter/idx"
 )
 
 type (

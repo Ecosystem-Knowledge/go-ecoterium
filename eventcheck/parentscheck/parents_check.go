@@ -3,7 +3,7 @@ package parentscheck
 import (
 	"errors"
 
-	base "github.com/Fantom-foundation/lachesis-base/eventcheck/parentscheck"
+	base "github.com/Ecosystem-Knowledge/lachesis-base/eventcheck/parentscheck"
 
 	"github.com/Ecosystem-Knowledge/go-ecoterium/inter"
 )

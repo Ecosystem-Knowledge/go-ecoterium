@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/Fantom-foundation/lachesis-base/inter/idx"
-	"github.com/Fantom-foundation/lachesis-base/kvdb"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/skiperrors"
-	"github.com/Fantom-foundation/lachesis-base/kvdb/table"
+	"github.com/Ecosystem-Knowledge/lachesis-base/inter/idx"
+	"github.com/Ecosystem-Knowledge/lachesis-base/kvdb"
+	"github.com/Ecosystem-Knowledge/lachesis-base/kvdb/skiperrors"
+	"github.com/Ecosystem-Knowledge/lachesis-base/kvdb/table"
 
 	"github.com/Ecosystem-Knowledge/go-ecoterium/logger"
 )

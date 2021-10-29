@@ -1,10 +1,10 @@
 package parentlesscheck
 
 import (
-	"github.com/Fantom-foundation/lachesis-base/eventcheck/epochcheck"
-	"github.com/Fantom-foundation/lachesis-base/eventcheck/queuedcheck"
-	"github.com/Fantom-foundation/lachesis-base/hash"
-	"github.com/Fantom-foundation/lachesis-base/inter/dag"
+	"github.com/Ecosystem-Knowledge/lachesis-base/eventcheck/epochcheck"
+	"github.com/Ecosystem-Knowledge/lachesis-base/eventcheck/queuedcheck"
+	"github.com/Ecosystem-Knowledge/lachesis-base/hash"
+	"github.com/Ecosystem-Knowledge/lachesis-base/inter/dag"
 )
 
 type Checker struct {
