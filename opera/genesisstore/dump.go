@@ -15,8 +15,8 @@ import (
 )
 
 var (
-	fileHeader  = hexutils.HexToBytes("641b00ac")
-	fileVersion = hexutils.HexToBytes("00010001")
+	fileHeader  = hexutils.HexToBytes("641b0101")
+	fileVersion = hexutils.HexToBytes("00010000")
 )
 
 func (s *Store) Export(writer io.Writer) error {
