@@ -25,8 +25,8 @@ import (
 )
 
 var (
-	eventsFileHeader  = hexutils.HexToBytes("7e991853")
-	eventsFileVersion = hexutils.HexToBytes("0001000")
+	eventsFileHeader  = hexutils.HexToBytes("617C60D0")
+	eventsFileVersion = hexutils.HexToBytes("00010001")
 )
 
 // statsReportLimit is the time limit during import and export after which we
