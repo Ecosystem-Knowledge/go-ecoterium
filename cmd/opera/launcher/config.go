@@ -73,10 +73,15 @@ var (
 		Value: DefaultCacheSize,
 	}
 
-	// GenesisFlag specifies network genesis configuration
-	GenesisFlag = cli.StringFlag{
-		Name:  "genesis",
+	// MainNetGenesisFlag specifies network genesis configuration
+	MainNetGenesisFlag = cli.StringFlag{
+		Name:  "mainnet",
 		Usage: "'path to genesis file' - sets the network genesis configuration.",
+	}
+
+	TestNetGenesisFlag = cli.StringFlag{
+		Name:	"testnet",
+		Usage:	"'path to genesis file' - sets the network genesis configuration.",
 	}
 
 	RPCGlobalGasCapFlag = cli.Uint64Flag{
@@ -165,7 +170,7 @@ func getOperaGenesis(ctx *cli.Context) integration.InputGenesis {
 		if err != nil {
 			log.Crit("Invalid flag", "flag", FakeNetFlag.Name, "err", err)
 		}
-		fakeGenesisStore := makegenesis.FakeGenesisStore(num, futils.ToFtm(1000000000), futils.ToFtm(5000000))
+		fakeGenesisStore := makegenesis.FakeGenesisStore(num, futils.ToEck(1000000000), futils.ToEck(5000000))
 		genesis = integration.InputGenesis{
 			Hash: fakeGenesisStore.Hash(),
 			Read: func(store *genesisstore.Store) error {
@@ -180,8 +185,34 @@ func getOperaGenesis(ctx *cli.Context) integration.InputGenesis {
 				return nil
 			},
 		}
-	case ctx.GlobalIsSet(GenesisFlag.Name):
-		genesisPath := ctx.GlobalString(GenesisFlag.Name)
+	case ctx.GlobalIsSet(TestNetGenesisFlag.Name):
+		testNetGenesisStore := makegenesis.TestNetGenesisStore(4, futils.ToEck(10000000), futils.ToEck(1000000))
+		genesis = integration.InputGenesis{
+			Hash: testNetGenesisStore.Hash(),
+			Read: func(store *genesisstore.Store) error {
+				buf := bytes.NewBuffer(nil)
+				err := testNetGenesisStore.Export(buf)
+				if err != nil {
+					return err
+				}
+				return store.Import(buf)
+			},
+			Close: func() error {
+				return nil
+			},
+		}
+		store := genesisstore.NewMemStore()
+		genesis.Read(store)
+		testFile, _ := os.Create("testnet.g")
+		err := genesisstore.WriteGenesisStore(testFile, store)
+		if err != nil {
+			utils.Fatalf("Failed to write genesis file: %v", err)
+		}
+		log.Info("testnet genesis hash", "hash", testNetGenesisStore.Hash())
+		log.Info("testnet.g was created successfully")
+
+	case ctx.GlobalIsSet(MainNetGenesisFlag.Name):
+		genesisPath := ctx.GlobalString(MainNetGenesisFlag.Name)
 
 		genesisFile, err := os.Open(genesisPath)
 		if err != nil {

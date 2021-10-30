@@ -58,6 +58,7 @@ var (
 func initFlags() {
 	// Flags for testing purpose.
 	testFlags = []cli.Flag{
+		TestNetGenesisFlag,
 		FakeNetFlag,
 	}
 
@@ -101,7 +102,7 @@ func initFlags() {
 		utils.TxPoolLifetimeFlag,
 	}
 	operaFlags = []cli.Flag{
-		GenesisFlag,
+		MainNetGenesisFlag,
 		utils.IdentityFlag,
 		DataDirFlag,
 		utils.MinFreeDiskSpaceFlag,
