@@ -208,7 +208,7 @@ func getOperaGenesis(ctx *cli.Context) integration.InputGenesis {
 		if err != nil {
 			utils.Fatalf("Failed to write genesis file: %v", err)
 		}
-		log.Info("testnet genesis hash", "hash", testNetGenesisStore.Hash())
+		log.Info("testnet genesis hash", "hash", testNetGenesisStore.Hash().Hex())
 		log.Info("testnet.g was created successfully")
 
 	case ctx.GlobalIsSet(MainNetGenesisFlag.Name):
